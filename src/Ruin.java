@@ -19,11 +19,8 @@ System.out.println(newAmount);
 
 int randomNumber=(int)(Math.random() * (10-1 + 1 )) + 1;
 
+
 boolean winChance = randomNumber %2 == 0;
-
-boolean keepPlaying = "Yes";
-
-
 
 if (winChance == true) {
 System.out.println("Congrats you won!, Here's your new balance: ");
